@@ -1,6 +1,6 @@
 # AgentCode: GitHub Integrated Conversational Agent
 
-AgentCode is a forward-thinking concept that integrates a web-based chat interface with a conversational agent (chatbot). This cutting-edge agent leverages data from a GitHub repository to respond intelligently to user queries. Its operational basis is the GPT-3.5-turbo model from OpenAI for language understanding and generation, coupled with the Pinecone vector search engine for efficient information retrieval and storage.
+AgentCode is a web-based chat interface with a chatbot that is "trained" on a GitHub repo. This agent leverages data from a GitHub repository to respond intelligently to user queries. It uses GPT from OpenAI, coupled with the Pinecone vector search engine for efficient information retrieval and storage.
 
 ## How to Use
 
@@ -17,11 +17,11 @@ The AgentCode application consists of three main components:
 
 ### app.py (Flask API)
 
-This part of the code sets up the Flask API server and outlines a single endpoint, /chat. The /chat endpoint accepts POST requests comprising a prompt field in the request body, signifying the user's question for the chatbot. The endpoint processes the prompt using the conversational agent derived from `agent_setup.py` and returns the agent's response.
+Flask API server and a single endpoint, /chat. The /chat endpoint accepts POST requests comprising a prompt field in the request body, signifying the user's question for the chatbot. The endpoint processes the prompt using the conversational agent derived from `agent_setup.py` and returns the agent's response.
 
 ### agent_setup.py (Setup Script)
 
-This part of the code features the AgentSetup class, responsible for initializing the conversational agent. The main steps it undertakes are:
+AgentSetup class, responsible for initializing the conversational agent:
 
 - Utilizing the GitHub API to fetch all relevant files from a specific GitHub repository. It focuses on particular file types (e.g., .md, .txt, .py).
 - Creating a "knowledge base" by dividing the content of each fetched file into segments of five lines each. These segments are stored with their corresponding filename.
