@@ -38,7 +38,15 @@ On clicking the 'Submit' button, the current content of the input field is sent 
 
 ## Contributing
 
-We welcome and appreciate contributions! Please feel free to pitch in.
+Feel free to contribute!
+
+# TODO
+
+- [ ] Finish connecting front end and back end
+- [ ] Adjust UI for a more attractive text output (code)
+- [ ] Build input field on UI for GitHub repo input
+- [ ] Build history on UI to switch between repo's
+- [ ] Create ability to update vector db when repo changes
 
 ## License
 
