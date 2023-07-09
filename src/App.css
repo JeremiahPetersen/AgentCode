@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.textareaContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.inputContainer,
+.outputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputArea,
+.outputArea {
+  height: 75vh;
+  margin: 10px 0;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  gap: 10px;
+}
+
+.transformButton {
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transformButton:hover {
+  background-color: #0056b3;
+}
