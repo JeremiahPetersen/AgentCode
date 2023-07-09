@@ -1,6 +1,6 @@
 # AgentCode: GitHub Integrated Conversational Agent
 
-AgentCode is a web-based chat interface with a chatbot that is "trained" on a GitHub repo. This agent leverages data from a GitHub repository to respond intelligently to user queries. It uses GPT from OpenAI, coupled with the Pinecone vector search engine for efficient information retrieval and storage.
+AgentCode is a web-based chat interface with a chatbot that is connected to a vector database of a GitHub repo. This agent leverages data from a GitHub repository to respond intelligently to user queries. It uses GPT from OpenAI, coupled with the Pinecone vector search engine for efficient information retrieval and storage.
 
 ## How to Use
 
