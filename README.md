@@ -43,6 +43,7 @@ Feel free to contribute!
 # TODO
 
 - [ ] Finish connecting front end and back end
+- [ ] Fix issues on back end (retrieving data and sending it to the front end)
 - [ ] Adjust UI for a more attractive text output (code)
 - [ ] Build input field on UI for GitHub repo input
 - [ ] Build history on UI to switch between repo's
