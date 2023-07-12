@@ -40,6 +40,10 @@ On clicking the 'Submit' button, the current content of the input field is sent 
 
 Feel free to contribute!
 
+# Notes
+
+Use RepoToText to use a GitHub repo with Code Interpreter
+
 # TODO
 
 - [ ] Finish connecting front end and back end
